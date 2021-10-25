@@ -29,6 +29,7 @@
     color: var(--very-light-gray);
     letter-spacing: 0.1rem;
     margin-bottom: 3rem;
+    font-weight: var(--font-weight-700);
   }
 
   .sedan_more_details,
