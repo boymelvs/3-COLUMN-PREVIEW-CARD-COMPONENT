@@ -1,0 +1,109 @@
+@media screen and (min-width: 801px) {
+  .main_content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 5rem auto;
+    width: 75%;
+    height: 100%;
+  }
+
+  .icon_sedan,
+  .icon_suv,
+  .icon_luxury {
+    width: 4rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .sedan_container,
+  .suv_container,
+  .luxury_container {
+    grid-column: span 4;
+    padding: 3.5rem;
+  }
+
+  .title {
+    font-family: var(--font-fam-big-shoulders);
+    color: var(--very-light-gray);
+    letter-spacing: 0.1rem;
+    margin-bottom: 3rem;
+    font-weight: var(--font-weight-700);
+  }
+
+  .sedan_more_details,
+  .suv_more_details,
+  .luxury_more_details {
+    font-family: var(--font-fam-lexend-deca);
+    color: var(--tranparent-white);
+    line-height: 1.5rem;
+    font-weight: var(--font-weight-400);
+  }
+
+  .sedan_container {
+    border-radius: 0.5rem 0 0 1rem;
+    background-color: var(--bright-orange);
+  }
+
+  .suv_container {
+    background-color: var(--dark-cyan);
+  }
+
+  .luxury_container {
+    border-radius: 0 0.5rem 0.5rem 0;
+    background-color: var(--very-dark-cyan);
+  }
+
+  .sedan_btn {
+    margin-top: 5rem;
+    border: none;
+    border-radius: 2rem;
+    width: 75%;
+    height: 3rem;
+    padding: 0.8rem;
+    color: var(--bright-orange);
+    font-weight: var(--font-weight-700);
+  }
+
+  .sedan_btn:hover {
+    border: 0.2rem solid var(--tranparent-white);
+    background-color: var(--bright-orange);
+    color: var(--tranparent-white);
+    cursor: pointer;
+  }
+
+  .suv_btn {
+    margin-top: 5rem;
+    border: none;
+    border-radius: 2rem;
+    width: 75%;
+    height: 3rem;
+    padding: 0.8rem;
+    color: var(--dark-cyan);
+    font-weight: var(--font-weight-700);
+  }
+
+  .suv_btn:hover {
+    border: 0.2rem solid var(--tranparent-white);
+    background-color: var(--dark-cyan);
+    color: var(--tranparent-white);
+    cursor: pointer;
+  }
+
+  .luxury_btn {
+    margin-top: 5rem;
+    border: none;
+    border-radius: 2rem;
+    width: 75%;
+    color: var(--very-dark-cyan);
+    height: 3rem;
+    font-weight: var(--font-weight-700);
+    padding: 0.8rem;
+  }
+
+  .luxury_btn:hover {
+    border: 0.2rem solid var(--tranparent-white);
+    background-color: var(--very-dark-cyan);
+    color: var(--tranparent-white);
+    cursor: pointer;
+  }
+}
